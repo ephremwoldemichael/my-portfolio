@@ -165,21 +165,21 @@ header {
 
 /* Contact Section */
 .contact {
-  background-color: #333;
-  padding: 30px;
+  background-color: #121212;
+  padding: 2px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  margin-bottom: 40px;
+  box-shadow: none;
+  margin-bottom: 50px;
   text-align: center;
 }
 
 .contact h2 {
   font-size: 2rem;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .contact form {
-  max-width: 600px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -197,7 +197,7 @@ header {
 .contact button {
   background-color: #3498db;
   color: #fff;
-  padding: 15px 20px;
+  padding: 12px 20px;
   border-radius: 5px;
   border: none;
   width: 100%;
