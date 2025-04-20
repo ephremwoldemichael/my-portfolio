@@ -63,18 +63,53 @@ header {
 }
 
 .skill-card {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
+  position: relative;
+  background: linear-gradient(145deg, #1c1c1e, #2a2a2d); /* cool, soft dark */
+  color: #e0e0e0;
+  padding: 12px;
   width: 245px;
-  border-radius: 10px;
+  border-radius: 16px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  overflow: hidden;
+}
+
+/* Cool border effect – subtle but always present */
+.skill-card::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -1;
+  background: linear-gradient(135deg, #00bcd4, #8e44ad, #1abc9c);
+  border-radius: 18px;
+  opacity: 0.6;
+  filter: blur(6px);
+  transition: opacity 0.3s ease;
+}
+
+/* Slightly stronger on hover */
+.skill-card:hover::before {
+  opacity: 0.9;
 }
 
 .skill-card:hover {
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px rgba(0, 188, 212, 0.3), 0 0 40px rgba(26, 188, 156, 0.2);
+  transform: translateY(-4px) scale(1.02);
 }
+
+
+.skill-card:hover {
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.3), 0 0 50px rgba(0, 255, 255, 0.2);
+  transform: translateY(-4px) scale(1.02);
+}
+
+
 
 .skill-icon {
   width: 50px;
