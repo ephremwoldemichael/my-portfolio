@@ -1,0 +1,15 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Browser window -->
+  <rect x="20" y="30" width="160" height="120" rx="10" ry="10" fill="#e0e0e0" stroke="#bbb" stroke-width="2"></rect>
+  <rect x="20" y="30" width="160" height="20" fill="#ccc"></rect>
+  <circle cx="35" cy="40" r="4" fill="#ff5f56"></circle>
+  <circle cx="50" cy="40" r="4" fill="#ffbd2e"></circle>
+  <circle cx="65" cy="40" r="4" fill="#27c93f"></circle>
+
+  <!-- Code brackets -->
+  <polyline points="80,80 70,100 80,120" fill="none" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></polyline>
+  <polyline points="120,80 130,100 120,120" fill="none" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></polyline>
+
+  <!-- Slash (representing a closing tag) -->
+  <line x1="90" y1="90" x2="110" y2="110" stroke="#333" stroke-width="4" stroke-linecap="round"></line>
+</svg>
