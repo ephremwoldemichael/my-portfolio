@@ -22,9 +22,38 @@ body {
 
 /* Header Section */
 header {
-  text-align: center;
+  display: flex;
+  align-items: center;
   margin-bottom: 40px;
 }
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px; /* Space between image and bio */
+}
+
+.bio {
+  text-align: left;
+}
+
+.name {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.profession {
+  font-size: 1.2rem;
+  color: #bbb;
+}
+
 
 .profile-img {
   width: 150px;
@@ -43,6 +72,47 @@ header {
   font-size: 1.2rem;
   color: #bbb;
 }
+
+.bio-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.bio-container {
+  max-width: 800px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.bio-text {
+  flex: 1;
+  color: #e0e0e0;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.3px;
+}
+
+
+
+.bio-text p {
+  flex: 1;
+  color: #e0e0e0;
+  max-width: 800px; /* Limit width to keep paragraph readable */
+  margin: 0 auto; /* Center it horizontally */
+  text-align: justify; /* Optional: makes paragraph edges align nicely */
+}
+
+
+
+
+
 
 /* Skills Section */
 .skills {
