@@ -82,7 +82,7 @@ header {
 }
 
 .bio-container {
-  max-width: 800px;
+  max-width: 1050px;
   padding: 0 20px;
   text-align: center;
 }
@@ -90,14 +90,15 @@ header {
 .bio-text {
   flex: 1;
   color: #e0e0e0;
-  max-width: 800px;
+  max-width: 1040px;
   margin: 0 auto;
   text-align: center;
   font-size: 1.3rem;
-  line-height: 2;
+  line-height: 1.5;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.9px;
 }
+
 
 
 
