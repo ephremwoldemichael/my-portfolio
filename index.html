@@ -65,36 +65,42 @@
     <section class="projects" id="projects">
       <h2>Projects</h2>
       <div class="projects-container">
+
        <div class="project-card">
           <img src="Images/cpu-fan-control.jpg" alt="Project 1 Image">
           <h3>Embedded Linux Fan Controller (C++ + Flask)</h3>
-          <p>Built a C++ daemon on Linux to monitor CPU temperature and control a fan, with a Flask dashboard for real-time status. Showcases system-level I/O and embedded client-server integration.</p>
           <a href="https://github.com/ephremwoldemichael/Temperature-Controlled-CPU-Fan-Linux-OS-System" target="_blank">View on GitHub</a>
-        </div>
+          <button class="open-modal" data-description="Built a C++ daemon on Linux to monitor CPU temperature and control a fan, with a Flask dashboard for real-time status. Showcases system-level I/O and embedded               client-server integration.">View Description</button>
+         </div>
+
         <div class="project-card">
           <img src="Images/Arduino_Rev3_layout.jpg" alt="Project 1 Image">
           <h3>Arduino-Uno-Rev3 PCB</h3>
-          <p>A custom PCB based on the Arduino Uno Rev3, designed for easy integration in embedded and DIY electronics projects.</p>
           <a href="https://github.com/ephremwoldemichael/Arduino-Uno-Rev3-PCB" target="_blank">View on GitHub</a>
+          <button class="open-modal" data-description="A custom PCB based on the Arduino Uno Rev3, designed for easy integration in embedded and DIY electronics projects.">View Description</button>
         </div>
+
         <div class="project-card">
           <img src="Images/TempControlledDCFan.jpg" alt="Project 2 Image">
           <h3>Temprature Controlled DC Fan</h3>
-          <p>A  fan that automatically adjusts speed based on ambient temperature for efficient cooling. </p>
           <a href="https://github.com/ephremwoldemichael/Temperature-Controlled-DC-Fan-" target="_blank">View on GitHub</a>
+            <button class= "open-modal" data-description="A  fan that automatically adjusts speed based on ambient temperature for efficient cooling.">View Description</button>
         </div>
+
         <div class="project-card">
           <img src="Images/capacitiveRemeoteCDLED.jpg" alt="Project 3 Image">
           <h3>Capacitive Remote-Controlled LED light</h3>
-          <p>A capacitive remote-controlled LED light that responds to touchless input, offering convenient and modern lighting control.</p>
           <a href="https://github.com/ephremwoldemichael/Capacitive-Remote-Controlled-LED-light" target="_blank">View on GitHub</a>
+            <button class= "open-modal" data-description="A capacitive remote-controlled LED light that responds to touchless input, offering convenient and modern lighting control.">View Description</button>
         </div>
+
         <div class="project-card">
           <img src="Images/shot_from_proteus.jpg" alt="Project 4 Image">
           <h3>Digital Stopwatch</h3>
-          <p>  A digital stopwatch designed in Proteus to count hours, minutes, and seconds—ideal for timing and simulation in embedded projects.</p>
           <a href="https://github.com/ephremwoldemichael/Digital-Stopwatch" target="_blank">View on GitHub</a>
+          <button class= "open-modal" data-description=" A digital stopwatch designed in Proteus to count hours, minutes, and seconds. Ideal for timing and simulation in embedded projects.">View Description</button>
         </div>
+
       </div>
     </section>
 
@@ -117,5 +123,15 @@
   </div>
 
   <script src="scripts.js"></script>
+ <!-- Description Modal -->
+<div id="descriptionModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeModalBtn">&times;</span>
+    <p id="modal-description"></p>
+  </div>
+</div>
+
 </body>
+
+
 </html>
