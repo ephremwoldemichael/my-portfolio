@@ -378,8 +378,10 @@ grandeza de pequeño, [4/20/2025 9:52 PM]
   background: linear-gradient(145deg, #1b1b1d, #27272a);
   border-radius: 16px;
   padding: 50px 20px;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  margin-right: 250px;
+  margin-left: 250px;
   text-align: center;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
