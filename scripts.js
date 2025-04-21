@@ -6,7 +6,7 @@ window.addEventListener('scroll', function() {
     const screenPosition = window.innerHeight;
 
     if (cardPosition < screenPosition) {
-      card.style.animationDelay = ${index * 0.2}s;  // Stagger animation
+      card.style.animationDelay = `${index * 0.2}s`;
       card.classList.add('visible');
     }
   });
