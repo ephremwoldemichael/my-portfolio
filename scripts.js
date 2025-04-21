@@ -6,14 +6,13 @@ window.addEventListener('scroll', function() {
     const screenPosition = window.innerHeight;
 
     if (cardPosition < screenPosition) {
-      card.style.animationDelay = `${index * 0.2}s`;  // Stagger animation
+      card.style.animationDelay = ${index * 0.2}s;  // Stagger animation
       card.classList.add('visible');
     }
   });
 });
 
-
-  document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
     // Open modal
     document.querySelectorAll('.open-modal').forEach(button => {
       button.addEventListener('click', () => {
@@ -37,4 +36,3 @@ window.addEventListener('scroll', function() {
       }
     });
   });
-
